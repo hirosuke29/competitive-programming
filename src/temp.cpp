@@ -48,11 +48,14 @@ template <class T>
 inline T LCM(T a, T b) {
     return (a * b) / GCD(a, b);
 }
+template <class T>
+inline T FLOOR(T a, T b) {
+    return (a + b - 1) / b;
+}
 
 using namespace std;
 //#inculude <bits/stdc++.h>
 //#define int long long
 
 signed main() {
-    
 }
