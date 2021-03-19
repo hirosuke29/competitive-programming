@@ -49,7 +49,7 @@ inline T LCM(T a, T b) {
     return (a * b) / GCD(a, b);
 }
 template <class T>
-inline T FLOOR(T a, T b) {
+inline T CEIL(T a, T b) {
     return (a + b - 1) / b;
 }
 
